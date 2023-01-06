@@ -1,0 +1,82 @@
+package com.example.sjcet.contextmenu;
+
+import android.content.res.Configuration;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.Switch;
+import android.widget.TextView
+import android.view.View;
+import android.content.ContentValues;
+import android.view.Menu;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        EditText editText;
+        TextView textView;
+    }
+
+    @Override
+    public void contextmenu() {
+        super.OnCreate(onSaveInstanceState);
+
+
+        Switch(menuItem1 get.itme());
+        Toast.makeText(getApplicationContext(menuItem));
+        menuItem1='Ajay';
+
+        Switch(menuItem2 get.itme());
+        Toast.makeText(getApplicationContext(menuItem));
+        menuItem1='sachin';
+
+        Switch(menuItem3 get itme());
+        Toast.makeText(getApplicationContext(menuItem));
+        menuItem1='Sumit';
+
+        Switch(menuItem4 get.itme());
+        Toast.makeText(getApplicationContext(menuItem));
+        menuItem1='Tarun';
+
+        Switch(menuItem5 get.itme());
+        Toast.makeText(getApplicationContext(menuItem));
+        menuItem1='yogesh';
+
+
+    }
+    @Override
+    public void closeContextMenu() {
+        super.closeContextMenu();
+
+        TextView=(View<?> view,view view, int(i))
+     Toast OnCreate.MenuItem(TextView)
+}
+
+
+MAIN2ACTIVITY:
+
+
+
+package com.example.sjcet.contextmenu;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class Main2Activity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main2);
+        EditText editText;
+        TextView textView;
+        getApplication().getText(call,sms);
+    }
+}
