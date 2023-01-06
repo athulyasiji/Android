@@ -1,0 +1,61 @@
+package com.example.sjcet.calculator;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.view.View;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        TextView tv;
+        EditText et1, et2;
+        int ed1, ed2;
+    }
+
+    public void add(View View) {
+        et1 = (EditText) findViewById(R.id.et1);
+        et2 = (EditText) findViewById(R.id.et2);
+        String = Integer.parseInt().to String();
+        ed1 = findViewById(R.id.ed1);
+        ed2 = findViewById(R.id.ed2);
+        int sum = ed1 + ed2;
+        setContentView(sum);
+
+    }
+
+    public void sub(View View) {
+        et1 = (EditText) findViewById(R.id.et1);
+        et2 = (EditText) findViewById(R.id.et2);
+        String = Integer.parseInt().to String();
+        ed1 = findViewById(R.id.ed1);
+        ed2 = findViewById(R.id.ed2);
+        int sum = ed1 - ed2;
+        setContentView(sum);
+
+    }
+
+    public void mul(View View) {
+        et1 = (EditText) findViewById(R.id.et1);
+        et2 = (EditText) findViewById(R.id.et2);
+        String = Integer.parseInt().to String();
+        ed1 = findViewById(R.id.ed1);
+        ed2 = findViewById(R.id.ed2);
+        int sum = ed * ed2;
+        setContentView(sum);
+    }
+
+    public void div(View View) {
+        et1 = (EditText) findViewById(R.id.et1);
+        et2 = (EditText) findViewById(R.id.et2);
+        String = Integer.parseInt().to String();
+        ed1 = findViewById(R.id.ed1);
+        ed2 = findViewById(R.id.ed2);
+        int sum = ed1 / ed2;
+        setContentView(sum);
+    }
+}
